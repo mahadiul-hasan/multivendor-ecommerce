@@ -1,11 +1,12 @@
 import express from "express";
+import { InventoryRoutes } from "@/app/modules/inventory/inventory.route";
 
 const router = express.Router();
 
 const moduleRoutes = [
 	{
-		path: "",
-		route: 
+		path: "/inventories",
+		route: InventoryRoutes,
 	},
 ];
 
